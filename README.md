@@ -19,7 +19,7 @@ isSecureBuffer(sodium.sodium_malloc(1)) // => false
 ### `var bool = isSecureBuffer(sbuf)`
 
 Check if `sbuf` is a [`sodium-native`](https://github.com/sodium-friends/sodium-native)
-Secure Buffer. This check only works with `sodium-native@3` or greater.
+Secure Buffer. This check only works with `sodium-native@2.1.0` or greater.
 
 ## Install
 
