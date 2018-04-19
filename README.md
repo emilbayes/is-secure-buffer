@@ -11,7 +11,7 @@ var isSecureBuffer = require('is-secure-buffer')
 var sodium = require('sodium-native')
 
 isSecureBuffer(Buffer.alloc(1)) // => false
-isSecureBuffer(sodium.sodium_malloc(1)) // => false
+isSecureBuffer(sodium.sodium_malloc(1)) // => true
 ```
 
 ## API
